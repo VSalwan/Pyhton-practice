@@ -75,3 +75,77 @@ for i in list:
     print(i)
 # ques 12 Write a program to print all the characters in a string except the vowels using the continue
 #statement.
+name="vishvam"
+for i in name:
+    if i=='a'or i=='e'or i=='i'or i=='o' or 'u':
+        continue
+    print(i)
+
+# ques 13 Write a program to print all numbers from 1 to 20, but skip those divisible by 4 using the
+#continue statement.
+for i in range(1,20):
+    if i%4==0:
+        continue
+    print(i)
+# ques 14 . Write a program to iterate over a list and use the pass statement for all negative numbers
+numbers = [5, -3, 7, -1, 0, 9, -8, 12]
+for num in numbers:
+    if num < 0:
+        pass
+    else:
+        print(num)
+# ques 15 Write a program that defines an empty function using the pass statement.
+def my_empty_function():
+    pass
+my_empty_function()
+
+# ques 16 Write a program to iterate over a string and use the pass statement for all spaces.
+s="Vishvam Salwan"
+for i in s:
+    if i==" ":
+        pass
+    print(i)
+
+# ques 17 . Write a program to create a for loop that does nothing for even numbers using the pass
+#statement.
+for i in range(1,20):
+    if i%2==0:
+        pass
+    print(i)
+# ques 18 Write a program to create a while loop that does nothing for numbers divisible by 3 using the
+#pass statement
+i=1
+while i<=20:
+    if i%3==0:
+        pass
+    print(i)
+# ques 19 Write a program that prints numbers from 1 to 10, but stops if the number is 8 and skips the
+#number 5
+for i in range(1,10):
+    if i==5:
+        continue
+    if i==8:
+        break
+# ques 20 Write a program to iterate over a list of integers, print them, but skip negative numbers and
+#stop if the number 0 is encountered
+list2=[1,2,3,4,-1,3,-4,0,6,7]
+for i in list2:
+    if i<0:
+        continue
+    if i==0:
+        break
+# ques 21 . Write a Python program that iterates over the numbers from 1 to 50. The program should:
+#Skip printing any number that is divisible by 7 using the continue statement.
+#Stop the loop if the number is 40 using the break statement.
+#Use the pass statement for any number that is a multiple of 5 but not divisible by 2 (i.e., odd
+#multiples of 5)
+for i in(1,50):
+    if i%7==0:
+        continue
+    if i%5==0 and i%2==0:
+        pass
+    if i==40:
+        break
+
+
+
