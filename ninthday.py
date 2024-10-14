@@ -34,3 +34,21 @@ print(student_names[1:-1])
 # to append elements
 student_names.append("shubham")
 print(student_names)
+
+# slice function 
+a = ("a", "b", "c", "d", "e", "f", "g", "h")
+x = slice(3, 5)
+print(a[x])
+
+# change list items
+a=['a','b','c']
+a[0]='z'
+print(a)
+
+# raemove function
+numbers = [2,4,7,9]
+numbers.remove(2)
+
+# len function- to calculate length of list
+cars = ['BMW', 'Mercedes', 'Tesla']
+print('Total Elements: ', len(cars))
