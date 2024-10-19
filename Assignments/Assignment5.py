@@ -171,5 +171,6 @@ if m%3==0 and m%5==0:
     print("number is correct")
 else:
     print("Number not correct")
+    # ques 21
 
 
